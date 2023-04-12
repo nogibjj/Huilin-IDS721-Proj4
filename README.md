@@ -30,4 +30,6 @@ In this project, we need to reproduce the architecture of the example serverless
      ![acc](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj4/acc.png)
      ![samples](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj4/samples.png)
      ![gen](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj4/gen.png)
+   * Schedule the data pipeline job
+     ![trigger](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj4/trigger.png)
 
