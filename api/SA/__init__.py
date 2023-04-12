@@ -22,7 +22,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     client = TextAnalyticsClient(endpoint=endpoint, credential=credential)
     
     # perform sentiment analysis on the input text
-    documents = [text]
+    # documents = [text]
+    documents = [{"id": "1", "text": text}]
     response = client.analyze_sentiment(documents=documents)[0]
     
     # create the response message
